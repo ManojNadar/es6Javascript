@@ -10,15 +10,15 @@
 
 // object destructuring
 
-let obj = {
-  name: "abc",
-  age: 22,
-  location: {
-    address: "dombivli",
-    state: "maharashtra",
-    district: "thane",
-  },
-};
+// let obj = {
+//   name: "abc",
+//   age: 22,
+//   location: {
+//     address: "dombivli",
+//     state: "maharashtra",
+//     district: "thane",
+//   },
+// };
 
 // console.log(obj);
 
@@ -28,10 +28,3 @@ let obj = {
 
 // obj.color = "red";
 // console.log(obj);
-
-let newObj = {
-  ...obj,
-  hobbies: "cricket",
-};
-
-// console.log(newObj);
